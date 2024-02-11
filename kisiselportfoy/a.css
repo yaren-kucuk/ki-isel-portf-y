@@ -1,0 +1,72 @@
+.paragraf{
+   
+    width: 450px;
+    height: 300px;
+    color: black;
+    background-color: lightblue;
+    padding: 30px; 
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+img {
+    border-radius: 50%;
+}
+
+
+body{
+    background-image: url("arkaplan.jpg") ;
+}
+@media (max-width: 600px) {
+  
+    body {
+      font-size: 14px;
+    }
+   
+  }
+
+a:link{
+    color:blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+a:hover{
+    color:rgb(255, 0, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+
+
+}
+
+ul{
+    background-color: white;
+    list-style-type: none;
+    padding:10px;
+
+   text-align: center;
+
+}
+ul li{
+    background-color: darkmagenta;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+ul li:hover{
+    background-color: magenta;
+    color: white;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+
